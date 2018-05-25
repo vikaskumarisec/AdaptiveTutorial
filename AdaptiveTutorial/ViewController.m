@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    NSLog(@"Check for the push to Github");
 }
 
 
@@ -27,3 +29,6 @@
 
 
 @end
+
+
+ // 022 71238270  -- yogesh sharma, saraswati

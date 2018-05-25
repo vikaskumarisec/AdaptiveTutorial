@@ -15,6 +15,8 @@
 		432544DD20A9B87A00EE7A5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 432544DC20A9B87A00EE7A5F /* main.m */; };
 		432544E720A9B87A00EE7A5F /* AdaptiveTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 432544E620A9B87A00EE7A5F /* AdaptiveTutorialTests.m */; };
 		432544F220A9B87A00EE7A5F /* AdaptiveTutorialUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 432544F120A9B87A00EE7A5F /* AdaptiveTutorialUITests.m */; };
+		E90540BC20B53399007E6B34 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E90540BB20B53399007E6B34 /* SecondViewController.m */; };
+		E938A9CC20AED3D100144826 /* Radio Button in Resources */ = {isa = PBXBuildFile; fileRef = E938A9CB20AED3D100144826 /* Radio Button */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		432544ED20A9B87A00EE7A5F /* AdaptiveTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdaptiveTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		432544F120A9B87A00EE7A5F /* AdaptiveTutorialUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdaptiveTutorialUITests.m; sourceTree = "<group>"; };
 		432544F320A9B87A00EE7A5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E90540BA20B5338D007E6B34 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		E90540BB20B53399007E6B34 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		E938A9CB20AED3D100144826 /* Radio Button */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Radio Button"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +106,13 @@
 		432544CC20A9B87A00EE7A5F /* AdaptiveTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				E938A9CB20AED3D100144826 /* Radio Button */,
 				432544CD20A9B87A00EE7A5F /* AppDelegate.h */,
 				432544CE20A9B87A00EE7A5F /* AppDelegate.m */,
 				432544D020A9B87A00EE7A5F /* ViewController.h */,
 				432544D120A9B87A00EE7A5F /* ViewController.m */,
+				E90540BA20B5338D007E6B34 /* SecondViewController.h */,
+				E90540BB20B53399007E6B34 /* SecondViewController.m */,
 				432544D320A9B87A00EE7A5F /* Main.storyboard */,
 				432544D620A9B87A00EE7A5F /* Assets.xcassets */,
 				432544D820A9B87A00EE7A5F /* LaunchScreen.storyboard */,
@@ -241,6 +249,7 @@
 				432544DA20A9B87A00EE7A5F /* LaunchScreen.storyboard in Resources */,
 				432544D720A9B87A00EE7A5F /* Assets.xcassets in Resources */,
 				432544D520A9B87A00EE7A5F /* Main.storyboard in Resources */,
+				E938A9CC20AED3D100144826 /* Radio Button in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E90540BC20B53399007E6B34 /* SecondViewController.m in Sources */,
 				432544D220A9B87A00EE7A5F /* ViewController.m in Sources */,
 				432544DD20A9B87A00EE7A5F /* main.m in Sources */,
 				432544CF20A9B87A00EE7A5F /* AppDelegate.m in Sources */,
